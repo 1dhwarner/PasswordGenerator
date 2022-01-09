@@ -57,8 +57,8 @@ function generatePassword () {
   passwordValue = "";
 
 // Run for loop to generate a random character [input number] of times
-  for (let i = 0; i < passwordLength; i++) {
-    let number = Math.floor(Math.random() * characters.length);
+  for (var i = 0; i < passwordLength; i++) {
+    var number = Math.floor(Math.random() * characters.length);
     passwordValue += characters[number];
   } 
 
