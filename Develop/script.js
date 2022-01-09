@@ -26,7 +26,6 @@ var passwordValue = "";
 
 // Activates series of prompts and confirms, then generates a random password based off of user inputs. Added contingency in case user selects no character types.
 function generatePassword () {
-  console.log("Hey! You clicked a button!");
   var characters = "";
   var passwordLength = prompt("How many characters would you like your password to contain? Must be between 8 and 128.");
   var useSpecialCharacters = confirm("Click OK to confirm including special characters");
